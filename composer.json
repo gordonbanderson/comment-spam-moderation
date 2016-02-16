@@ -1,0 +1,21 @@
+{
+	"name": "weboftalent/comment-spam-moderation",
+	"description": "Identify and manage spam comments",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "spam", "comments", "heuristics"],
+	"authors": [
+		{
+			"name": "Gordon Anderson",
+			"email": "gordon.b.anderson@gmail.com",
+			"homepage": "https://github.com/gordonbanderson/comment-spam-moderation",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"silverstripe/comments": "~2"
+	},
+    "support": {
+        "issues": "https://github.com/gordonbanderson/comment-spam-moderation/issues"
+    },
+	"license": "BSD-3-Clause"
+}
