@@ -1,9 +1,9 @@
 ---
-# SiteTree specific config for comments
-Name: commentssitetree
-only:
-  moduleexists: 'cms'
+Name: comment-spam-moderation
 ---
-SiteTree:
-  comments:
-    enabled_cms: true
+Comment:
+  extensions:
+    - CommentHeuristicsExtension
+CommentAdmin:
+  extensions:
+    - CommentAdminSpamExtension
